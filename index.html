@@ -11,39 +11,17 @@
 <style>
   /* Layout idea: one calm column of whitespace, a wide three-up grid of photos, left-aligned type. */
   :root {
-    --bg: #e6e2da;          /* muted warm stone */
-    --bg-soft: #dcd7cd;     /* placeholder tone */
-    --bg-soft-2: #d2ccc0;
-    --ink: #2a2824;
-    --ink-soft: #6a655c;
-    --accent: #4f5a48;      /* deep moss, used only for the button and link */
-    --accent-ink: #f3f0ea;
+    --bg: #1c1b19;         /* warm charcoal */
+    --bg-soft: #272522;    /* placeholder tone */
+    --bg-soft-2: #302d29;
+    --ink: #ece8e0;
+    --ink-soft: #a29c91;
+    --accent: #b9c4ac;     /* soft sage, used only for the button and link */
+    --accent-ink: #1c1b19;
     --font-heading: "Fraunces", "Iowan Old Style", Georgia, serif;
     --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
     --gutter: clamp(20px, 5vw, 72px);
     --max: 1200px;
-    color-scheme: light;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #1f1e1b;
-      --bg-soft: #2a2825;
-      --bg-soft-2: #33302c;
-      --ink: #ece8e0;
-      --ink-soft: #a29c91;
-      --accent: #b9c4ac;
-      --accent-ink: #1f1e1b;
-      color-scheme: dark;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #1f1e1b;
-    --bg-soft: #2a2825;
-    --bg-soft-2: #33302c;
-    --ink: #ece8e0;
-    --ink-soft: #a29c91;
-    --accent: #b9c4ac;
-    --accent-ink: #1f1e1b;
     color-scheme: dark;
   }
 
